@@ -9,15 +9,14 @@ Original file is located at
 
 import pandas as pd
 import numpy as np
-from google.colab import files
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-import random
 
-uploaded = files.upload()
 
-data = pd.read_csv("heart.csv")
+
+
+data = pd.read_csv("Dataset/heart.csv")
 
 data.head()
 

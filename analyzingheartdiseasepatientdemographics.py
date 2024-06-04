@@ -8,12 +8,12 @@ Original file is located at
 """
 
 import pandas as pd
-from google.colab import files
+
 import matplotlib.pyplot as plt
 
-uploaded = files.upload()
 
-data = pd.read_csv("heart.csv")
+
+data = pd.read_csv("Dataset/heart.csv")
 
 data.head()
 
